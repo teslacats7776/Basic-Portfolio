@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  }
+body{
+  background-image: url('../images/fabric_plaid_@2X.png');
+  background-color: #cccccc;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color:  #4aaaa5;
+}
+
+
+
+/*  
+.menu {
+    height: 100px;
+    background-color:#ffffff;
+    border-color: #cccccc;
+    margin-bottom: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  h1 span {
+  position: relative;
+  padding-bottom: 5px;
+ }
+ h1 span::after{
+  position: absolute; 
+  left: 0; 
+  bottom: 0; 
+  width: 100%; 
+  height: 1px; 
+  content: ""
+}
+.sidebar {
+    float: left;   
+    width: 160px;              
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color:#f5efef;
+  }
+  .sidebar a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+  }
+  .sidebar a:hover {
+    color: #f1f1f1;
+  }
+  */
+  .container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 960px; 
+    /*  margin-left: 160px; Same as the width of the sidenav */
+    font-size: 28px; /* Increased text to enable scrolling */
+    overflow: auto;
+  }
+  .page {
+    width: 960px;
+    margin: 0 auto;
+  }
+
+
+  .content {
+    width: 960px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-color: #dddddd;
+  }
+  .pcontent {
+    width: 960px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-color: #dddddd;
+  }
+
+  img {
+    float: left;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .text-block {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  p {
+    /*margin-top: 20px;
+    margin-bottom: 20px;*/
+    color: #777777;
+  }
+
+  .footer {
+   
+    overflow: hidden;
+    /*margin-left: 160px;*/
+    border-top: 8px solid #4aaaa5;
+  }
+ 
+.column1
+  {
+    float: left;
+    width: 31%;
+    margin: 20px 1.15%;
+    height: 160px;
+      position:relative;
+  }
+  
+.ptext {
+    position: absolute;
+    top: 140px;
+    width: 100%;
+    color: whitesmoke;
+    font-size:24px;
+    font-weight:bold;
+background-color: teal;
+text-align: center;
+}
+
+  
+  .column {
+    float: left;
+    width: 31%;
+    margin: 20px 1.15%;
+    height: 160px;
+    background-color: #B2D6FF;    /* Medium blue */
+  }
+  .avatar {
+    float: left;
+    width: 60px;
+    height: 60px;
+    margin: 25px;
+    border-radius: 40px;
+    background-color: #D6E9FE;
+  }
+  
+  .username {
+    margin-top: 30px;
+  }
+  
+  .comment {
+    margin: 10px;
+    overflow: hidden;  /* This is important */
+  }
+.copyright {
+  position: fixed;
+  display: block;
+  width: 100%;
+  color:grey;
+  font-size: 0.7em;
+  text-align: center;
+  bottom:0;
+}
