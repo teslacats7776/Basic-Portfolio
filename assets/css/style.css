@@ -33,15 +33,24 @@ h6 {
     width: 960px; 
     font-size: 22px; /* Increased text to enable scrolling */
     overflow: auto;
+    
+    
   }
   .page {
     width: 960px;
-    margin: 0 auto;
+    height:600px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 0px;
+    padding-right: 0px; 
+    display: block;
+    background-color: #ffffff;
   }
   .content{
-    background-color: #ffffff;
+   
     border-color: #dddddd;
     color: #777777;
+    width: 100%;
   }
   .thumbnailmain {
     float: left;
@@ -59,14 +68,20 @@ h6 {
     color: white;
     width: 100%; 
     left: 0;
+    text-align: center;
   }
 
   .footer {
-
+position: fixed;
+height: 200px;
     overflow: hidden;
     /*margin-left: 160px;*/
     border-top: 8px solid #4aaaa5;
     background-color: #666666;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+
   }
   
   .column {
